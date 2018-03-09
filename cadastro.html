@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- Felipe Lima 2016 -->
+<html>
+	<head>
+		<!-- Nome da empresa - Vagas -->
+		<title>Vagas</title>
+		<meta charset="UTF-8">
+		<style type="text/css"> 
+			@import "css/estilos.css";
+		</style>
+
+	</head>
+	<body>
+
+		<header>
+			<h1>VAGAS</h1>
+
+		    <nav>
+	            <ul>
+	                <li><a href="index.html">HOME</a></li>
+	                <li><a href="sobre.html">SOBRE</a></li>
+	                <li><a href="cadastro.html">CADASTRAR</a></li>
+	            </ul>
+	        </nav>
+	    	
+			<form method="post">
+				<div>
+					<input type="email" name="email" id="email" placeholder="E-mail" required>
+					<input type="password" id="senha" name="senha" placeholder="Senha">
+					<input type="submit" name="acao" id="btnLogin" value="Enviar">
+				</div>
+				<div class="esqueceu_a_senha">
+					<a href="esqueceu_a_senha.html">Esqueceu a conta?</a>
+				</div>
+			</form>
+
+		</header>
+
+		<main>
+				
+			<article class="chamada">
+				<h1>Cadastre-se no nosso sistema para ter o seu currículo mais vísivel!</h1>
+			</article>	
+
+			<form class="cadastro">
+				<div class="row-register">
+					<label>Nome: </label>
+					<input type="text" name="Nome" id="Nome" required>
+				</div>
+				<div class="row-register">
+					<label>Sobrenome: </label>
+					<input type="text" name="Sobrenome" id="Sobrenome" required>
+				</div>					
+				<div class="row-register">
+					<label>E-mail: </label>
+					<input type="email" name="email" id="email" required>
+				</div>
+				<div class="row-register">
+					<label>Senha: </label>
+					<input type="password" id="novasenha" name="novasenha">
+				</div>
+				<div class="row-register">
+					<input type="radio" name="rd" id="rd1" value="F">
+					<label for="rd1">Feminino</label>
+					<input type="radio" name="rd" id="rd2" value="M" checked="checked">
+					<label for="rd2">Masculino</label>
+				</div>
+				<a href="perfil.html" class="btnLink">Criar conta</a>	
+			</form>
+	
+		</main>
+		<footer class="area">
+			<h2>Vagas© 2017</h2>
+		</footer>
+
+
+	</body>
+</html>
